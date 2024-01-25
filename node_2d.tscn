@@ -1,12 +1,6 @@
-[gd_scene format=3 uid="uid://dr80560gpkesj"]
+[gd_scene load_steps=2 format=3 uid="uid://dr80560gpkesj"]
+
+[ext_resource type="Script" path="res://Node2D.gd" id="1_ua4nj"]
 
 [node name="Node2D" type="Node2D"]
-position = Vector2(910, 352)
-
-[node name="Control" type="Control" parent="."]
-layout_mode = 3
-anchors_preset = 0
-offset_left = -47.0
-offset_top = 59.0
-offset_right = -7.0
-offset_bottom = 190.0
+script = ExtResource("1_ua4nj")
