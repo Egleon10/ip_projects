@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://dr80560gpkesj"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(910, 352)
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -47.0
+offset_top = 59.0
+offset_right = -7.0
+offset_bottom = 190.0
